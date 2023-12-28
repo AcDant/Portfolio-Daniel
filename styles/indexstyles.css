@@ -144,7 +144,7 @@ h1 {
   justify-content: space-around;
   align-items: center;
   /* background: linear-gradient(0.25turn, var(--raisin-black), #ebf8e1, var(--raisin-black)); */
-  background: linear-gradient( to center, var(--raisin-black), #ebf8e1);
+  background: linear-gradient(to center, var(--raisin-black), #ebf8e1);
 
   /* background: linear-gradient(
     to right,
