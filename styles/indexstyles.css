@@ -1,21 +1,9 @@
 :root {
-  /* CSS HEX */
   --raisin-black: #1b1e25ff;
   --engineering-orange: #b80c09ff;
   --amber: #ffbd00ff;
   --mint-cream: #f7fff7ff;
   --air-superiority-blue: #6ca6c1ff;
-
-  /* SCSS Gradient */
-  /* $gradient-top: linear-gradient(0deg, #1b1e25ff, #b80c09ff, #ffbd00ff, #f7fff7ff, #6ca6c1ff);
-$gradient-right: linear-gradient(90deg, #1b1e25ff, #b80c09ff, #ffbd00ff, #f7fff7ff, #6ca6c1ff);
-$gradient-bottom: linear-gradient(180deg, #1b1e25ff, #b80c09ff, #ffbd00ff, #f7fff7ff, #6ca6c1ff);
-$gradient-left: linear-gradient(270deg, #1b1e25ff, #b80c09ff, #ffbd00ff, #f7fff7ff, #6ca6c1ff);
-$gradient-top-right: linear-gradient(45deg, #1b1e25ff, #b80c09ff, #ffbd00ff, #f7fff7ff, #6ca6c1ff);
-$gradient-bottom-right: linear-gradient(135deg, #1b1e25ff, #b80c09ff, #ffbd00ff, #f7fff7ff, #6ca6c1ff);
-$gradient-top-left: linear-gradient(225deg, #1b1e25ff, #b80c09ff, #ffbd00ff, #f7fff7ff, #6ca6c1ff);
-$gradient-bottom-left: linear-gradient(315deg, #1b1e25ff, #b80c09ff, #ffbd00ff, #f7fff7ff, #6ca6c1ff);
-$gradient-radial: radial-gradient(#1b1e25ff, #b80c09ff, #ffbd00ff, #f7fff7ff, #6ca6c1ff); */
 }
 
 *,
@@ -27,6 +15,51 @@ $gradient-radial: radial-gradient(#1b1e25ff, #b80c09ff, #ffbd00ff, #f7fff7ff, #6
   text-decoration: none;
   list-style: none;
 }
+
+/* SLIDER RUSO */
+
+
+html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      /* background: #eee; */
+      /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
+      /* font-size: 14px; */
+      /* color: #000; */
+      /* margin: 0; */
+      /* padding: 0; */
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+
+/* FIN SLIDER RUSO */
+
+
+
 
 h1 {
   font-size: 2rem;
@@ -70,12 +103,13 @@ h1 {
   align-items: center;
   /* background-color: var(--raisin-black); */
   border: red solid 2px;
-  height: 90vh;
+  /* height: 90vh; */
+  height: 100vh;
   width: 100vw;
 }
 
 .hero {
-  margin-top: 10vh;
+  /* margin-top: 10vh; */
 }
 
 .skills {
