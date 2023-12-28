@@ -7,7 +7,7 @@ posicion sticky https://www.youtube.com/watch?v=eRfJeAwlCk0
 
 Navegador para saltar entre secciones, siempre visible
 1º Hero con mi nombre y una foto
-2º skills
-3º mas skills
+2º descripcion
+3º skills
 4º proyectos
 5º contacto/perfiles

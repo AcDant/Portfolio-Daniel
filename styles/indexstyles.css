@@ -1,13 +1,13 @@
-:root{
+:root {
   /* CSS HEX */
---raisin-black: #1b1e25ff;
---engineering-orange: #b80c09ff;
---amber: #ffbd00ff;
---mint-cream: #f7fff7ff;
---air-superiority-blue: #6ca6c1ff;
+  --raisin-black: #1b1e25ff;
+  --engineering-orange: #b80c09ff;
+  --amber: #ffbd00ff;
+  --mint-cream: #f7fff7ff;
+  --air-superiority-blue: #6ca6c1ff;
 
-/* SCSS Gradient */
-/* $gradient-top: linear-gradient(0deg, #1b1e25ff, #b80c09ff, #ffbd00ff, #f7fff7ff, #6ca6c1ff);
+  /* SCSS Gradient */
+  /* $gradient-top: linear-gradient(0deg, #1b1e25ff, #b80c09ff, #ffbd00ff, #f7fff7ff, #6ca6c1ff);
 $gradient-right: linear-gradient(90deg, #1b1e25ff, #b80c09ff, #ffbd00ff, #f7fff7ff, #6ca6c1ff);
 $gradient-bottom: linear-gradient(180deg, #1b1e25ff, #b80c09ff, #ffbd00ff, #f7fff7ff, #6ca6c1ff);
 $gradient-left: linear-gradient(270deg, #1b1e25ff, #b80c09ff, #ffbd00ff, #f7fff7ff, #6ca6c1ff);
@@ -28,13 +28,11 @@ $gradient-radial: radial-gradient(#1b1e25ff, #b80c09ff, #ffbd00ff, #f7fff7ff, #6
   list-style: none;
 }
 
-
-
-h1{
+h1 {
   font-size: 2rem;
 }
 
-.nave{
+.nave {
   height: 10vh;
   width: 100vw;
   /* background-color: var(--air-superiority-blue); */
@@ -43,7 +41,7 @@ h1{
   border: rgb(80, 33, 209) solid 2px;
 }
 
-.nave ul{
+.nave ul {
   display: flex;
   justify-content: space-between;
   /* border: rgb(80, 33, 209) solid 2px; */
@@ -53,7 +51,7 @@ h1{
   border: rgb(27, 219, 130) solid 2px;
 } */
 
-.nave div{
+.nave div {
   height: 10vh;
   width: 20vw;
   display: flex;
@@ -62,11 +60,11 @@ h1{
   background-color: var(--air-superiority-blue);
 }
 
-.nave div:hover{
+.nave div:hover {
   background-color: var(--amber);
 }
 
-.secciones{
+.secciones {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -76,21 +74,106 @@ h1{
   width: 100vw;
 }
 
-.hero{
+.hero {
   margin-top: 10vh;
 }
 
-.logo{ 
-  width: 10rem;
-  height: 10rem;
+.skills {
+  background-color: var(--raisin-black);
+  display: flex;
+  flex-direction: column;
+}
+
+.grupo-skills {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: red solid 1px;
+}
+
+.skill {
+  width: 90%;
+  height: 9rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: var(--amber) 1px solid;
+  border-bottom: fuchsia 1px solid;
+  /* border: fuchsia 1px solid; */
+}
+
+.skill h2 {
+  width: 8rem;
+  color: var(--mint-cream);
+  border: red solid 1px;
+}
+
+.logo {
+  width: 8rem;
+  height: 8rem;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
- }
-
-.html{
-
   border: red solid 2px;
-  background-image: url("../Logos/HTML5-noB.png");
+}
 
+.html {
+  /* border: red solid 2px; */
+  background-image: url("../Logos/html4.webp");
+}
+
+.css {
+  background-image: url("../Logos/css32.png");
+}
+
+.js {
+  background-image: url("../Logos/javascript.png");
+}
+
+.react {
+  background-image: url("../Logos/react.jpg");
+}
+
+.logo-pareja {
+  width: 8rem;
+  height: 8rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background: linear-gradient(0.25turn, var(--raisin-black), #ebf8e1, var(--raisin-black)); */
+  background: linear-gradient( to center, var(--raisin-black), #ebf8e1);
+
+  /* background: linear-gradient(
+    to right,
+    #000,
+    #111,
+    #222,
+    #333,
+    #444,
+    #555,
+    #666,
+    #777,
+    #888,
+    #999,
+    #fff
+  ); */
+}
+
+.logos2 {
+  width: 45%;
+  height: 45%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.git {
+  background-image: url("../Logos/git\ solo1.png");
+}
+
+.github {
+  background-image: url("../Logos/github\ solo.png");
 }
