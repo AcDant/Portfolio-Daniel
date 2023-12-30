@@ -25,14 +25,14 @@ html,
       height: 100%;
     }
 
-    body {
-      /* background: #eee; */
-      /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
-      /* font-size: 14px; */
-      /* color: #000; */
-      /* margin: 0; */
-      /* padding: 0; */
-    }
+    /* body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    } */
 
     .swiper {
       width: 100%;
@@ -98,8 +98,9 @@ h1 {
 }
 
 .caja-prin{
-  display: flex;
+  /* display: flex;
 flex-direction: column;
+border: solid px violet; */
 /* justify-content: space-around; */
   /* margin: auto; */
 }
