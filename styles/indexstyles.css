@@ -97,6 +97,13 @@ h1 {
   background-color: var(--amber);
 }
 
+.caja-prin{
+  display: flex;
+flex-direction: column;
+/* justify-content: space-around; */
+  /* margin: auto; */
+}
+
 .secciones {
   display: flex;
   justify-content: space-around;
