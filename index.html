@@ -8,6 +8,15 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+
+    <!-- Algunos estilos van en el HTML por para poder darles preferencia ante otros estilos importados -->
+    <style>
+      .skills{
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+    
     <title>Daniel Ojeda Martel</title>
   </head>
   <body>
@@ -56,6 +65,7 @@
 
       <section id="hero" class="secciones hero swiper-slide">
         <h1>Daniel Ojeda Martel</h1>
+        <div class="logo-dani"></div>
       </section>
       <section id="sec2" class="secciones swiper-slide">
         <p>
@@ -64,19 +74,17 @@
           desing. I offer y skills to build websides and mobile applications
         </p>
       </section>
-      <section id="sec3" class="secciones skills swiper-slide">
+      <section id="sec3" class="swiper-slide secciones skills">
         <!-- <div class="grupo-skills"> -->
         <div class="skill">
           <div class="logo html"></div>
           <h2>HTML5</h2>
         </div>
-
         <div class="skill">
           <div class="logo css"></div>
           <h2>CSS3</h2>
         </div>
         <!-- </div> -->
-
         <!-- <div class="grupo-skills"> -->
         <div class="skill">
           <div class="logo js"></div>

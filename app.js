@@ -8,3 +8,7 @@ var swiper = new Swiper(".mySwiper", {
       clickable: true,
     },
   });
+
+  // const skills = document.querySelector(".skills");
+  // skills.style.flex;
+  // skills.style.justifyContent = 'space-around'
