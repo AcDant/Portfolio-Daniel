@@ -11,12 +11,16 @@
 
     <!-- Algunos estilos van en el HTML por para poder darles preferencia ante otros estilos importados -->
     <style>
-      .skills{
+      .secciones {
+        display: flex;
+      }
+
+      .skills {
         display: flex;
         flex-direction: column;
       }
     </style>
-    
+
     <title>Daniel Ojeda Martel</title>
   </head>
   <body>
@@ -61,51 +65,60 @@
     </nav> -->
     <div class="swiper mySwiper">
       <div class="caja-prin swiper-wrapper">
-
-
-      <section id="hero" class="secciones hero swiper-slide">
-        <h1>Daniel Ojeda Martel</h1>
-        <div class="logo-dani"></div>
-      </section>
-      <section id="sec2" class="secciones swiper-slide">
-        <p>
-          My name is Daniel Ojeda Martel. I´m a Spanish software developer in
-          Canarias fascinated by technology innovations, product branding and
-          desing. I offer y skills to build websides and mobile applications
-        </p>
-      </section>
-      <section id="sec3" class="swiper-slide secciones skills">
-        <!-- <div class="grupo-skills"> -->
-        <div class="skill">
-          <div class="logo html"></div>
-          <h2>HTML5</h2>
-        </div>
-        <div class="skill">
-          <div class="logo css"></div>
-          <h2>CSS3</h2>
-        </div>
-        <!-- </div> -->
-        <!-- <div class="grupo-skills"> -->
-        <div class="skill">
-          <div class="logo js"></div>
-          <h2>Javascript</h2>
-        </div>
-        <div class="skill">
-          <div class="logo react"></div>
-          <h2>React</h2>
-        </div>
-        <div class="skill">
-          <div class="logo logo-pareja">
-            <div class="logos2 git"></div>
-            <div class="logos2 github"></div>
+        <section id="hero" class="secciones hero swiper-slide">
+          <!-- <h1>Daniel Ojeda Martel</h1> -->
+          <div class="logo-dani"></div>
+        </section>
+        <section id="sec2" class="secciones swiper-slide">
+          <p>
+            My name is Daniel Ojeda Martel. I´m a Spanish software developer in
+            Canarias fascinated by technology innovations, product branding and
+            desing. I offer y skills to build websides and mobile applications
+          </p>
+        </section>
+        <section id="sec3" class="swiper-slide secciones skills">
+          <!-- <div class="grupo-skills"> -->
+          <div class="skill">
+            <div class="logo html"></div>
+            <h2>HTML5</h2>
           </div>
-          <h2>Git/Github</h2>
-        </div>
-        <!-- </div> -->
-      </section>
-      <section id="sec4" class="secciones swiper-slide"></section>
-      <section id="sec5" class="secciones swiper-slide"></section>
-    </div>
+          <div class="skill">
+            <div class="logo css"></div>
+            <h2>CSS3</h2>
+          </div>
+          <!-- </div> -->
+          <!-- <div class="grupo-skills"> -->
+          <div class="skill">
+            <div class="logo js"></div>
+            <h2>Javascript</h2>
+          </div>
+          <div class="skill">
+            <div class="logo react"></div>
+            <h2>React</h2>
+          </div>
+          <div class="skill">
+            <div class="logo logo-pareja">
+              <div class="logos2 git"></div>
+              <div class="logos2 github"></div>
+            </div>
+            <h2>Git/Github</h2>
+          </div>
+          <!-- </div> -->
+        </section>
+        <section id="sec4" class="secciones swiper-slide skills">
+          <h2 class="skill2">In process...</h2>
+
+          <div class="skill  skill2">
+            <div class="logo html"></div>
+            <h2>Java</h2>
+          </div>
+          <div class="skill  skill2">
+            <div class="logo html"></div>
+            <h2>MySQL</h2>
+          </div>
+        </section>
+        <section id="sec5" class="secciones swiper-slide"></section>
+      </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./app.js"></script>

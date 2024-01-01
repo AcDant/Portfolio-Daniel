@@ -112,7 +112,7 @@ h1 {
   justify-content: space-around;
   align-items: center;
   /* background-color: var(--raisin-black); */
-  border: red solid 2px;
+  /* border: red solid 2px; */
   /* height: 90vh; */
   height: 100vh;
   width: 100vw;
@@ -123,17 +123,18 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  border: rgb(37, 27, 168) solid 2px;
+  background: linear-gradient( to bottom right, var(--air-superiority-blue), var(--raisin-black), var(--engineering-orange));
+  /* border: rgb(37, 27, 168) solid 2px; */
 }
 
 .logo-dani{
-  background-image: url("../Logos/DD1.PNG");
-  width: 90%;
+  background-image: url("../Logos/DD3.PNG");
+  width: 100%;
   height: 60%;
   background-repeat: no-repeat;
   background-size: cover;
   margin: auto;
-  border: red solid 2px;
+  /* border: red solid 2px; */
 }
 
 .skills {
@@ -156,7 +157,7 @@ h1 {
 
 .skill {
   width: 90%;
-  width: 100%;
+  /* width: 100%; */
   height: 9rem;
   display: flex;
   justify-content: space-around;
@@ -170,6 +171,11 @@ h1 {
   width: 8rem;
   color: var(--mint-cream);
   border: red solid 1px;
+}
+
+.skill2{
+  color: var(--mint-cream);
+  border: red solid 2px;
 }
 
 .logo {
@@ -205,7 +211,6 @@ h1 {
   justify-content: space-around;
   align-items: center;
   /* background: linear-gradient(0.25turn, var(--raisin-black), #ebf8e1, var(--raisin-black)); */
-  background: linear-gradient(to center, var(--raisin-black), #ebf8e1);
 
   /* background: linear-gradient(
     to right,
